@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalender Steiermark 2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .holiday {
+            background-color: #ffcccb;
+        }
+        .weekend {
+            background-color: #f0e68c;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Kalender Steiermark 2025</h1>
+
+<table>
+    <tr>
+        <th>Monat</th>
+        <th>Datum</th>
+        <th>Tag</th>
+        <th>Feiertage</th>
+    </tr>
+    <!-- Januar -->
+    <tr>
+        <td>Januar</td>
+        <td>1. Januar</td>
+        <td>Mittwoch</td>
+        <td class="holiday">Neujahr</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>2. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>3. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>4. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>5. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>13. Januar</td>
+        <td>Montag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>14. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>15. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>
