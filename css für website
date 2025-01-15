@@ -1,0 +1,16 @@
+
+        .nested {
+            display: none;
+        }
+        .caret {
+            cursor: pointer;
+            user-select: none;
+        }
+        .caret::before {
+            content: "\25B6"; /* Pfeil nach rechts */
+            display: inline-block;
+            margin-right: 6px;
+        }
+        .caret-down::before {
+            transform: rotate(90deg); /* Pfeil nach unten */
+        }
