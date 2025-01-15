@@ -3,80 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkboxen mit Optionen</title>
-    <style>
-        .nested {
-            display: none;
-        }
-        .caret {
-            cursor: pointer;
-            user-select: none;
-        }
-        .caret::before {
-            content: "\25B6"; /* Pfeil nach rechts */
-            display: inline-block;
-            margin-right: 6px;
-        }
-        .caret-down::before {
-            transform: rotate(90deg); /* Pfeil nach unten */
-        }
-    </style>
+    <title>Web untis 2.0</title>
+
+    <link rel="stylesheet" href="website design.css">    
+
 </head>
 <body>
     <h2>Jahrgänge</h2>
     <ul>
         <li>
-            <input type="checkbox" id="mainCheckbox" onclick="toggleCheckboxes(this)">
+            <input type="checkbox" id="mainCheckbox1" onclick="toggleCheckboxes(this)">
             <span class="caret" onclick="toggleNested(this)">erster Jahrgang</span>
             <ul class="nested">
                 <li><input type="checkbox" class="subCheckbox"> Unteroption 1.1</li>
                 <li><input type="checkbox" class="subCheckbox"> Unteroption 1.2</li>
                 <li><input type="checkbox" class="subCheckbox"> Unteroption 1.3</li>
             </ul>
-
-            <input type="checkbox" id="mainCheckbox" onclick="toggleCheckboxes(this)">
+        </li>
+        <li>
+            <input type="checkbox" id="mainCheckbox2" onclick="toggleCheckboxes(this)">
             <span class="caret" onclick="toggleNested(this)">zweiter Jahrgang</span>
             <ul class="nested">
-                <li><input type="checkbox" class="subCheckbox"> Unteroption 1.1</li>
-                <li><input type="checkbox" class="subCheckbox"> Unteroption 1.2</li>
-                <li><input type="checkbox" class="subCheckbox"> Unteroption 1.3</li>
-            </ul>  
-            <input type="checkbox" id="mainCheckbox" onclick="toggleCheckboxes(this)">
+                <li><input type="checkbox" class="subCheckbox"> 2 LIT</li>
+                <li><input type="checkbox" class="subCheckbox"> 2 IT</li>
+                <li><input type="checkbox" class="subCheckbox"> 2M</li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="mainCheckbox3" onclick="toggleCheckboxes(this)">
             <span class="caret" onclick="toggleNested(this)">dritter Jahrgang</span>
             <ul class="nested">
-                <li><input type="checkbox" class="subCheckbox"> Unteroption 1.1</li>
-                <li><input type="checkbox" class="subCheckbox"> Unteroption 1.2</li>
-                <li><input type="checkbox" class="subCheckbox"> Unteroption 1.3</li>
-            </ul> 
-            <input type="checkbox" id="mainCheckbox" onclick="toggleCheckboxes(this)">
+                <li><input type="checkbox" class="subCheckbox"> Unteroption 3.1</li>
+                <li><input type="checkbox" class="subCheckbox"> Unteroption 3.2</li>
+                <li><input type="checkbox" class="subCheckbox"> Unteroption 3.3</li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="mainCheckbox4" onclick="toggleCheckboxes(this)">
             <span class="caret" onclick="toggleNested(this)">vierter Jahrgang</span>
             <ul class="nested">
-                <li><input type="checkbox" class="subCheckbox"> Unteroption 1.1</li>
-                <li><input type="checkbox" class="subCheckbox"> Unteroption 1.2</li>
-                <li><input type="checkbox" class="subCheckbox"> Unteroption 1.3</li>
-            </ul> 
-            <input type="checkbox" id="mainCheckbox" onclick="toggleCheckboxes(this)">
+                <li><input type="checkbox" class="subCheckbox"> Unteroption 4.1</li>
+                <li><input type="checkbox" class="subCheckbox"> Unteroption 4.2</li>
+                <li><input type="checkbox" class="subCheckbox"> Unteroption 4.3</li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="mainCheckbox5" onclick="toggleCheckboxes(this)">
             <span class="caret" onclick="toggleNested(this)">fünfter Jahrgang</span>
             <ul class="nested">
-                <li><input type="checkbox" class="subCheckbox"> Unteroption 1.1</li>
-                <li><input type="checkbox" class="subCheckbox"> Unteroption 1.2</li>
-                <li><input type="checkbox" class="subCheckbox"> Unteroption 1.3</li>
+                <li><input type="checkbox" class="subCheckbox"> Unteroption 5.1</li>
+                <li><input type="checkbox" class="subCheckbox"> Unteroption 5.2</li>
+                <li><input type="checkbox" class="subCheckbox"> Unteroption 5.3</li>
             </ul>
         </li>
     </ul>
 
     <script>
-        function toggleCheckboxes(mainCheckbox) {
-            const checkboxes = document.querySelectorAll('.subCheckbox');
-            checkboxes.forEach(checkbox => {
-                checkbox.checked = mainCheckbox.checked;
-            });
-        }
+      function toggleNested(element) {
+        var nested = element.nextElementSibling;
+        nested.style.display = (nested.style.display === "block") ? "none" : "block";
+        element.classList.toggle("open");
+    }
 
-        function toggleNested(caret) {
-            caret.parentElement.querySelector(".nested").classList.toggle("active");
-            caret.classList.toggle("caret-down");
-        }
+    function toggleCheckboxes(mainCheckbox) {
+        var nestedCheckboxes = mainCheckbox.parentElement.querySelectorAll(".subCheckbox");
+        nestedCheckboxes.forEach(function(checkbox) {
+            checkbox.checked = mainCheckbox.checked;
+        });
+    }
     </script>
+
+        <button onclick="window.location.href='kalender code.html'">Weiter</button>
+    
 </body>
 </html>
