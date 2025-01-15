@@ -4,40 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalender Steiermark 2025</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: center;
-        }
-        th {
-            background-color: #4CAF50;
-            color: white;
-        }
-        .holiday {
-            background-color: #ffcccb;
-        }
-        .weekend {
-            background-color: #f0e68c;
-        }
-    </style>
+   
+<link rel="stylesheet" href="style für Kalender.css">    
 </head>
 <body>
 
 <h1>Kalender Steiermark 2025</h1>
 
 <table>
+    <button onclick="window.history.back();">Zurück</button>
     <tr>
         <th>Monat</th>
         <th>Datum</th>
@@ -121,7 +96,7 @@
         <td>Januar</td>
         <td>13. Januar</td>
         <td>Montag</td>
-        <td></td>
+        <td</td>
     </tr>
     <tr>
         <td>Januar</td>
@@ -131,417 +106,2100 @@
     </tr>
     <tr>
         <td>Januar</td>
-        <td>16. Januar</td>
+        <td>15. Januar</td>
         <td>Mittwoch</td>
         <td></td>
     </tr>
-    <tr><tr>
+    <tr>
+        <td>Januar</td>
+        <td>16. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>Januar</td>
         <td>17. Januar</td>
-        <td>Mittwoch</td>
+        <td>Freitag</td>
         <td></td>
     </tr>
+    <tr>
         <td>Januar</td>
         <td>18. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
     </tr>
     <tr>
         <td>Januar</td>
         <td>19. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Januar</td>
-        <td>15. Januar</td>
-        <td>Mittwoch</td>
-        <td></td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
     </tr>
        
+    <tr>
+        <td>Januar</td>
+        <td>20. Januar</td>
+        <td>Montag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>21. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>22. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>23. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>24. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>25. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>26. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>27. Januar</td>
+        <td>Montag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>28. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>29. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>30. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>31. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <!-- Februar -->
+    <tr>
+        <td>februar</td>
+        <td>1. Februar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Februar</td>
+        <td>2. Februar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+
+
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
+    <tr>
+        <td>Januar</td>
+        <td>6. Januar</td>
+        <td>Montag</td>
+        <td class="holiday">Heilige Drei Könige</td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>7. Januar</td>
+        <td>Dienstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>8. Januar</td>
+        <td>Mittwoch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>9. Januar</td>
+        <td>Donnerstag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>10. Januar</td>
+        <td>Freitag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>11. Januar</td>
+        <td>Samstag</td>
+        <td class="weekend"></td>
+    </tr>
+    <tr>
+        <td>Januar</td>
+        <td>12. Januar</td>
+        <td>Sonntag</td>
+        <td class="weekend"></td>
+    </tr>
+    
