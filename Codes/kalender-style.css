@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-top-left-radius: 7px;
+
+}
+
+#monthYear {
+    font-size: 25px;
+    font-weight: bold;
+    display: box;
+    margin: 10px 0;
+}
+
+#weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 10px;
+    max-width: 4000;
+    border: 2px solid rgba(167, 159, 159, 0.5);
+    background-color:rgba(209, 255, 250, 0.393);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 0 auto;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#days button {
+    border: 2px solid rgba(167, 159, 159, 0.5);
+    text-align: center;
+    max-width: 1200px;
+    height: 40px;
+    
+}
+
+#info {
+    height: 200px;
+    width: 300px;
+
+}
+
+
+
+
+
