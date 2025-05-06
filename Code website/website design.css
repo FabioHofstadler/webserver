@@ -1,0 +1,27 @@
+
+.nested {
+    display: none;
+    margin-left: 20px;
+}
+.caret {
+    cursor: pointer;
+    user-select: none;
+    padding: 5px;
+}
+.caret::before {
+    content: '▶'; /* Pfeil nach rechts */
+    margin-right: 5px;   
+    
+}
+.caret-down::before {
+    content: '▼'; /* Pfeil nach unten */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/background_calender.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+}

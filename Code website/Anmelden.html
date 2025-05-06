@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Register</title>
+    <link rel="stylesheet" href="anmelden.css"> 
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form" id="login-form">
+            <h2>Login</h2>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="button">Login</button>
+            <p class="toggle" onclick="toggleForm()">Don't have an account? Register</p>
+        </div>
+
+        <div class="form" id="register-form" style="display: none;">
+            <h2>Register</h2>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="button">Register</button>
+            <p class="toggle" onclick="toggleForm()">Already have an account? Login</p>
+        </div>
+    </div>
+    <div class="form" id="verify-form" style="display: none;">
+        <h2>Verify Email</h2>
+        <input type="text" id="verification-code" placeholder="Enter verification code" required>
+        <button type="button" onclick="verifyEmail()">Verify</button>
+    </div>
+
+    
+
+    <script>
+        function toggleForm() {
+            const loginForm = document.getElementById('login-form');
+            const registerForm = document.getElementById('register-form');
+
+            if (loginForm.style.display === 'none') {
+                loginForm.style.display = 'block';
+                registerForm.style.display = 'none';
+            } else {
+                loginForm.style.display = 'none';
+                registerForm.style.display = 'block';
+            }
+        }
+        function sendVerificationEmail(email) {
+    fetch('/send-verification-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            alert('Verification email sent. Please check your inbox.');
+            toggleToVerifyForm();
+        } else {
+            alert('Error sending verification email.');
+        }
+    });
+}
+
+function verifyEmail() {
+    const code = document.getElementById('verification-code').value;
+    fetch('/verify-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ code }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            alert('Email verified. You can now log in.');
+            toggleForm(); // zurück zum Login-Formular
+        } else {
+            alert('Invalid verification code.');
+        }
+    });
+}
+
+function toggleToVerifyForm() {
+    document.getElementById('login-form').style.display = 'none';
+    document.getElementById('register-form').style.display = 'none';
+    document.getElementById('verify-form').style.display = 'block';
+}
+    </script>
+    
+</body>
+</html>
