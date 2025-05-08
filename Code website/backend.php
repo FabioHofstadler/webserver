@@ -6,10 +6,10 @@ $user = 'dein_user';
 $pass = 'dein_passwort';
 
 try {
-$pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8mb4", $user, $pass);
-$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8mb4", $user, $pass);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
-die("Verbindung fehlgeschlagen: " . $e->getMessage());
+    die("Verbindung fehlgeschlagen: " . $e->getMessage());
 }
 ?>
 
@@ -23,7 +23,7 @@ $password = $_POST['password'];
 $confirm = $_POST['confirm_password'];
 
 if ($password !== $confirm) {
-die("Passwörter stimmen nicht überein.");
+    die("Passwörter stimmen nicht überein.");
 }
 
 $role = ($email === 'admin@htl-leoben.at') ? 'admin' : 'reader';
@@ -49,9 +49,9 @@ $stmt = $pdo->prepare("UPDATE users SET is_verified = 1, verification_token = NU
 $stmt->execute([$token]);
 
 if ($stmt->rowCount()) {
-echo "E-Mail bestätigt. Du kannst dich jetzt anmelden.";
+    echo "E-Mail bestätigt. Du kannst dich jetzt anmelden.";
 } else {
-echo "Ungültiger oder bereits verwendeter Token.";
+    echo "Ungültiger oder bereits verwendeter Token.";
 }
 ?>
 
@@ -69,11 +69,11 @@ $stmt->execute([$email]);
 $user = $stmt->fetch();
 
 if ($user && $user['is_verified'] && password_verify($password, $user['password_hash'])) {
-$_SESSION['user_id'] = $user['id'];
-$_SESSION['role'] = $user['role'];
-echo "Erfolgreich angemeldet!";
+    $_SESSION['user_id'] = $user['id'];
+    $_SESSION['role'] = $user['role'];
+    echo "Erfolgreich angemeldet!";
 } else {
-echo "Falsche Daten oder nicht bestätigt.";
+    echo "Falsche Daten oder nicht bestätigt.";
 }
 ?>
 
@@ -84,19 +84,19 @@ session_start();
 require 'config.php';
 
 if (!isset($_SESSION['user_id'])) {
-http_response_code(403);
-exit('Nicht eingeloggt');
+    http_response_code(403);
+    exit('Nicht eingeloggt');
 }
 
 $action = $_GET['action'];
 
 if ($action === 'fetch') {
-$stmt = $pdo->query("SELECT * FROM events ORDER BY start");
-echo json_encode($stmt->fetchAll(PDO::FETCH_ASSOC));
+    $stmt = $pdo->query("SELECT * FROM events ORDER BY start");
+    echo json_encode($stmt->fetchAll(PDO::FETCH_ASSOC));
 } elseif ($action === 'add' && $_SESSION['role'] === 'admin') {
-$data = json_decode(file_get_contents('php://input'), true);
-$stmt = $pdo->prepare("INSERT INTO events (title, description, start, end, created_by) VALUES (?, ?, ?, ?, ?)");
-$stmt->execute([$data['title'], $data['desc'], $data['start'], $data['end'], $_SESSION['user_id']]);
-echo "Termin erstellt.";
+    $data = json_decode(file_get_contents('php://input'), true);
+    $stmt = $pdo->prepare("INSERT INTO events (title, description, start, end, created_by) VALUES (?, ?, ?, ?, ?)");
+    $stmt->execute([$data['title'], $data['desc'], $data['start'], $data['end'], $_SESSION['user_id']]);
+    echo "Termin erstellt.";
 }
 ?>
